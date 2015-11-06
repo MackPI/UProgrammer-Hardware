@@ -1,0 +1,19 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP2112K-3.3
+D TLV71209DBV, 300 mA Low Dropout Voltage Regulator, Fixed Output 0.9V, SOT-23-5
+K 300mA LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv71209.pdf
+$ENDCMP
+#
+$CMP NC7SB3157
+D SPDT Analog switch
+$ENDCMP
+#
+$CMP PIC16F1455
+D FLASH-Based 8-Bit CMOS Microcontroller
+K 16F648
+F www.microchip.com
+$ENDCMP
+#
+#End Doc Library
