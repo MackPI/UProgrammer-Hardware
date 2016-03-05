@@ -339,4 +339,21 @@ X VSS 14 -750 -350 300 R 50 50 1 1 W
 ENDDRAW
 ENDDEF
 #
+# Single_cell
+#
+DEF Single_cell BT 0 0 N Y 1 F N
+F0 "BT" 100 50 50 H V L CNN
+F1 "Single_cell" 100 -50 50 H V L CNN
+F2 "" 0 40 60 V V C CNN
+F3 "" 0 40 60 V V C CNN
+DRAW
+S -90 50 90 40 0 1 0 F
+S -62 22 58 2 0 1 0 F
+P 2 0 1 10  20 95  60 95 N
+P 2 0 1 10  40 115  40 75 N
+X ~ 1 0 150 100 D 50 50 1 1 P
+X ~ 2 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 #End Library
