@@ -3,7 +3,7 @@
   (general
     (links 190)
     (no_connects 0)
-    (area 33.3226 31.117838 148.25121 106.9334)
+    (area 50.759999 36.269999 127.060001 87.170001)
     (thickness 1.6)
     (drawings 8)
     (tracks 946)
@@ -639,10 +639,10 @@
       (net 3 /TxD))
     (pad 22 smd oval (at 16 0 270) (size 2.4 1.1) (layers F.Cu F.Paste F.Mask)
       (net 2 /RxD))
-    (model /home/mack/Uprogrammer/ESP12e.wrl
-      (at (xyz 0 0.322835 0))
-      (scale (xyz 0.3937 0.3937 0.3937))
-      (rotate (xyz 0 0 90))
+    (model /home/mack/UprogrammerFPs.pretty/ESP8266-12E.wrl
+      (at (xyz 0.31496 -0.131 0.015))
+      (scale (xyz 393.7 393.7 393.7))
+      (rotate (xyz 90 0 270))
     )
   )
 

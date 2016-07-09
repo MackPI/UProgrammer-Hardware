@@ -1,4 +1,4 @@
-update=Fri 12 Feb 2016 08:43:40 AM PST
+update=Fri 01 Jul 2016 09:15:00 AM PDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,18 +27,6 @@ LibDir=/usr/share/kicad/
 version=1
 NetIExt=net
 [cvpcb/libraries]
-[general]
-version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [eeschema]
 version=1
 LibDir=/usr/share/kicad/modules/
@@ -74,4 +62,16 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=programmer
+[general]
+version=1
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 

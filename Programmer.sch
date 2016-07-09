@@ -1052,15 +1052,15 @@ Text Label 6350 6600 0    60   ~ 0
 Text Label 6350 6800 0    60   ~ 0
 SCK
 Text Label 6800 3025 0    60   ~ 0
-SCK
+IO2
 Text Label 6800 3225 0    60   ~ 0
-MOSI
+SCLK
 Text Label 6775 2825 0    60   ~ 0
 MISO
 Text Label 6775 2925 0    60   ~ 0
-IO2
-Text Label 6800 3125 0    60   ~ 0
 IO3
+Text Label 6800 3125 0    60   ~ 0
+MOSI
 Text Label 6350 6700 0    60   ~ 0
 MOSI
 Text Label 6350 7100 0    60   ~ 0
@@ -1188,7 +1188,7 @@ L R R5
 U 1 1 5647FE3C
 P 1400 6550
 F 0 "R5" H 1500 6550 50  0000 C CNN
-F 1 "1K" H 1500 6475 50  0000 C CNN
+F 1 "100" H 1500 6475 50  0000 C CNN
 F 2 "Resistors_SMD:R_1206" V 1330 6550 30  0001 C CNN
 F 3 "" H 1400 6550 30  0000 C CNN
 	1    1400 6550
@@ -1321,24 +1321,9 @@ Wire Wire Line
 Wire Wire Line
 	6500 2825 7200 2825
 Wire Wire Line
-	7300 2925 7300 2625
-Wire Wire Line
-	7400 2725 7400 4525
+	7300 2625 7300 4425
 Wire Wire Line
 	6500 3125 7500 3125
-Wire Wire Line
-	7300 4425 7300 3125
-Connection ~ 7300 3125
-Connection ~ 7400 3025
-Wire Wire Line
-	7200 4325 7200 2925
-Connection ~ 7200 2925
-Wire Wire Line
-	7100 4225 7100 2825
-Connection ~ 7100 2825
-Wire Wire Line
-	7025 4125 7025 3225
-Connection ~ 7025 3225
 Text Label 1775 6750 0    60   ~ 0
 Vpf
 $Comp
@@ -1912,4 +1897,19 @@ Wire Wire Line
 Connection ~ 2925 1125
 Wire Wire Line
 	5850 1575 5750 1575
+Wire Wire Line
+	7400 3025 7400 2725
+Wire Wire Line
+	7025 4125 7025 3125
+Connection ~ 7025 3125
+Wire Wire Line
+	7100 4225 7100 2825
+Connection ~ 7100 2825
+Wire Wire Line
+	7200 4325 7200 3025
+Connection ~ 7200 3025
+Connection ~ 7300 2925
+Wire Wire Line
+	7400 4525 7400 3225
+Connection ~ 7400 3225
 $EndSCHEMATC
