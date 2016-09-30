@@ -553,7 +553,7 @@ Wire Wire Line
 	3300 6750 3300 6950
 Connection ~ 3300 6850
 Wire Wire Line
-	3925 6750 4925 6750
+	3925 6750 5500 6750
 Wire Wire Line
 	4100 6750 4100 6850
 Wire Wire Line
@@ -786,7 +786,7 @@ Connection ~ 9100 1975
 Wire Wire Line
 	4100 7200 4250 7200
 Wire Wire Line
-	1550 7600 5050 7600
+	1550 7600 5500 7600
 $Comp
 L Q_NMOS_GSD Q5
 U 1 1 563D017E
@@ -1858,4 +1858,38 @@ Wire Wire Line
 	8475 3700 8475 3750
 Wire Wire Line
 	4500 3975 4500 4525
+$Comp
+L C C?
+U 1 1 57EE9507
+P 5200 7000
+F 0 "C?" H 5200 7100 40  0000 L CNN
+F 1 "1 µF" H 5206 6915 40  0000 L CNN
+F 2 "Capacitors_SMD:C_1206" H 5238 6850 30  0001 C CNN
+F 3 "~" H 5200 7000 60  0000 C CNN
+	1    5200 7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 57EE95E9
+P 5500 7000
+F 0 "R?" H 5650 7000 50  0000 C CNN
+F 1 "20K" H 5700 6900 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5430 7000 30  0001 C CNN
+F 3 "" H 5500 7000 30  0000 C CNN
+	1    5500 7000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5200 7600 5200 7150
+Connection ~ 5050 7600
+Wire Wire Line
+	5500 7600 5500 7150
+Connection ~ 5200 7600
+Wire Wire Line
+	5200 6750 5200 6850
+Connection ~ 4925 6750
+Wire Wire Line
+	5500 6750 5500 6850
+Connection ~ 5200 6750
 $EndSCHEMATC
