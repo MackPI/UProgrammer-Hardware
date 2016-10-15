@@ -1,6 +1,5 @@
 # UProgrammer-Hardware
 Kicad Files for Universal programmer
 
-Version I has updates for another spin of the PCB. 
-Just finished layout and zipped into package for Fabrication.
-
+Version J has updates for another spin of the PCB. 
+Found errors and fixed them while checking the plots.
