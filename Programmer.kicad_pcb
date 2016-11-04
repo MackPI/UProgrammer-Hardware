@@ -3,7 +3,7 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 50.759999 36.269999 127.060001 87.170001)
+    (area 43.573791 30.539016 146.5274 107.0334)
     (thickness 1.6)
     (drawings 7)
     (tracks 934)
@@ -64,7 +64,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFEF7F)
     (pcbplotparams
-      (layerselection 0x0103c_80000001)
+      (layerselection 0x010e0_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -2743,8 +2743,8 @@
     )
   )
 
-  (module UprogrammerFPs:PILogo1 (layer F.Cu) (tedit 56DB8D2C) (tstamp 5802875D)
-    (at 64.1 83.05)
+  (module UprogrammerFPs:PILogo1 (layer F.Cu) (tedit 56DB8D2C) (tstamp 5808528A)
+    (at 64.3 83.05)
     (fp_text reference Ref** (at -1.5 -4) (layer F.Fab) hide
       (effects (font (thickness 0.15)))
     )
